@@ -1,8 +1,12 @@
-#movie-result {
-  background: rgb(244, 98, 181);
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans+Thai:wght@100..800&display=swap');
+
+#game-result {
+  background: rgb(238, 65, 65);
   border: 5px solid black;
   font-size: 24px;
-  height: 160px;
+  height: 590px;
   margin-top: 10px;
   margin-bottom: 20px;
 }
@@ -11,7 +15,7 @@
   background: rgb(196, 159, 255);
   border: 5px solid black;
   font-size: 24px;
-  height: 160px;
+  min-height: 160px;
   margin-top: 10px;
   margin-bottom: 20px;
 }
@@ -19,4 +23,29 @@
 hr {
   height: 5px;
   background-color: black;
+}
+
+#game-heading {
+  font-family: "Orbitron", sans-serif;
+}
+
+#game-pic {
+  width: 300px;
+  border-radius: 10px;
+  margin-left: 30px;
+}
+
+#game-pic2 {
+  width: 300px;
+  border-radius: 10px;
+  margin-left: 30px;
+}
+
+#book-heading {
+  font-family: "Playpen Sans Thai", cursive;
+}
+
+#book-pic {
+  width: 500px;
+  margin-left: 30px;
 }
